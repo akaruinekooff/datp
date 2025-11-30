@@ -2,6 +2,8 @@
 name = "datp"
 version = "0.1.0"
 edition = "2024"
+description = "datp - library for totp"
+license-file = "LICENSE.md"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
