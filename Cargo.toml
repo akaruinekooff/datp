@@ -1,9 +1,11 @@
 [package]
 name = "datp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "datp - library for totp"
 license-file = "LICENSE.md"
+repository = "https://github.com/akaruinekooff/datp"
+homepage = "https://akaruinekooff.github.io/datp/"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
