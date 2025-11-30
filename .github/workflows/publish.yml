@@ -25,5 +25,5 @@ jobs:
           VERSION=$(cargo metadata --format-version=1 | jq -r '.packages[0].version')
           echo "Current version: $VERSION"
           
-          cargo publish --no-verify || true
+          cargo publish --no-verify --allow-dirty || true
           echo "Publish step finished (version may already exist)"
